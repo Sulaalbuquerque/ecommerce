@@ -17,7 +17,7 @@ export const SocialNetworks = () => {
                     </ContainerSocial>
                     <ContainerImg>
                         <img
-                            src="../../../../cosmetics.png"
+                            src="https://via.placeholder.com/250x200.png/BC8F8F/FFFFFF/?text=Logo" //../../../../cosmetics.png
                             alt="Imagem com a logomarca"
                             height={'40px'}
                         />

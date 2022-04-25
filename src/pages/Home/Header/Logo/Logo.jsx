@@ -5,7 +5,7 @@ export const Logo = () => {
         <>
             <ContainerLogo>
                 <img 
-                    src="../../../../cosmetics.png" //https://via.placeholder.com/250x150.png/BC8F8F/FFFFFF/?text=Logo
+                    src="https://via.placeholder.com/250x200.png/BC8F8F/FFFFFF/?text=Logo" //../../../../cosmetics.png
                     alt="Imagem da logomaca"
                     width="150" 
                 />
