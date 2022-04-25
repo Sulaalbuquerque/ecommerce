@@ -19,11 +19,13 @@ export const IndexShowcase = ({
                                 descriptionBanner,
                                 link 
                             }) => {
+    /*  
+    // Consumindo api de produtos 
 
     const carousel = useRef(null)
 
     const [data, setData] = useState([])
-
+    
     const handleLeftClick = (e) => {
         e.preventDefault()
         carousel.current.scrollLeft -= carousel.current.offsetWidth
@@ -41,6 +43,21 @@ export const IndexShowcase = ({
     }, [])
 
     if(!data || !data.length) return null
+    */
+
+    //Sem consumir api de produtos
+
+    const carousel = useRef(null)
+
+    const handleLeftClick = (e) => {
+        e.preventDefault()
+        carousel.current.scrollLeft -= carousel.current.offsetWidth
+    }
+
+    const handleRightClick = (e) => {
+        e.preventDefault()
+        carousel.current.scrollLeft += carousel.current.offsetWidth
+    }
 
     return (
         <>
@@ -57,6 +74,7 @@ export const IndexShowcase = ({
                 <ContainerCarousel>
                     <ContainerCarouselCards ref={carousel}>
 
+                        {/*
                         {data.map((card) => {
 
                             const {
@@ -89,7 +107,113 @@ export const IndexShowcase = ({
                                 />
                             )
                         })}
+                        */}
 
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
                     </ContainerCarouselCards>
 
                     <ContainerCarouselControls>
