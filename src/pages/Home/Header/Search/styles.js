@@ -15,6 +15,7 @@ export const ContainerSearch = styled.div`
     }
 
     input{
+        border-radius: 5px 0 0 5px;
         width: 100%;
         font-size: 1rem;
     }
@@ -22,6 +23,7 @@ export const ContainerSearch = styled.div`
     button{
         background-color: ${props => props.theme.colors.primary};
         cursor: pointer;
+        border-radius: 0 5px 5px 0;
 
         :hover{
             background-color: ${props => props.theme.colors.quaternary};
