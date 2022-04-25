@@ -19,6 +19,7 @@ export const IndexShowcase = ({
                                 descriptionBanner,
                                 link 
                             }) => {
+
     /*  
     // Consumindo api de produtos 
 
@@ -126,7 +127,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio2"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -139,7 +140,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio3"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -152,7 +153,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio4"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -165,7 +166,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio5"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -178,7 +179,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio6"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -191,7 +192,7 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio7"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
@@ -204,7 +205,33 @@ export const IndexShowcase = ({
                             <IndexCard
                                 key={"id"}
                                 discount={"-5%"} 
-                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio1"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio8"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio9"} 
+                                descriptionImg={"imagem máscara de cílios"} 
+                                detail={"Lançamento"} 
+                                name={"Máscara para cílios - 10g"} 
+                                previousValue= {"R$ 70,00"} 
+                                currentValue={"R$ 60,00"} 
+                                installment={"3x R$ 20,00"} 
+                                freight={"Frete Grátis"} 
+                                announcement={"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                            />
+                            <IndexCard
+                                key={"id"}
+                                discount={"-5%"} 
+                                img={"https://via.placeholder.com/200x200.png/BC8F8F/FFFFFF/?text=Anúncio10"} 
                                 descriptionImg={"imagem máscara de cílios"} 
                                 detail={"Lançamento"} 
                                 name={"Máscara para cílios - 10g"} 
