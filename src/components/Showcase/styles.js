@@ -16,6 +16,7 @@ export const ContainerShowcase = styled.div`
 
     .banner{
         img{
+            height: 15rem;
             width: 100%;
             margin-bottom: 2rem;
         }
@@ -38,12 +39,18 @@ export const ContainerShowcase = styled.div`
         .linkPag{
             right: -45%;
         }
+
+        .banner{
+            img{
+                height: 10rem;
+            }
+        }
     }
 `
 
 export const ContainerCarousel = styled.div`
 
-    margin-bottom: 1rem;
+    margin: 0 .5rem 1rem;
 `
 
 export const ContainerCarouselCards = styled.div`
