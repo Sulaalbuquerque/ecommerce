@@ -12,15 +12,7 @@ export const ContainerCard = styled.div`
     min-height: 500px;
     border-radius: 5px;
     
-    :hover{
-        .announcement{
-            display: none;
-        }
-
-        .extras{
-            display: flex;
-        }
-    }
+    
 
     span{
         display: block;
@@ -119,6 +111,28 @@ export const ContainerCard = styled.div`
 
             :hover{
                 color: ${props => props.theme.colors.quaternary};
+            }
+        }
+    }
+
+    @media (max-width: 770px) {
+        .announcement{
+            display: block;
+        }
+
+        .extras{
+            display: flex;
+        }
+    }
+
+    @media (min-width: 771px) {
+        :hover{
+            .announcement{
+                display: none;
+            }
+
+            .extras{
+                display: flex;
             }
         }
     }
