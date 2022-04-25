@@ -7,7 +7,7 @@ export const ContainerHeader = styled.header`
    'home home home home home home home home';
   background-color: ${props => props.theme.colors.primary};
   padding:0 4.5rem;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 
   .iconHamburger{
     grid-area: iconMenu;

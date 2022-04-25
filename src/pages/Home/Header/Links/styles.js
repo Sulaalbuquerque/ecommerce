@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const ContainerLinks = styled.div`
     grid-area: home;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 
     ul{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
 
         list-style-type: none;
         padding: 1.5rem 0 0 0;
